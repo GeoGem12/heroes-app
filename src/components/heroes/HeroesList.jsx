@@ -15,6 +15,7 @@ export const HeroesList = ({ publisher }) => {
                     heroes.map(hero => (
                         <HeroCard
                             key={hero.id}
+                            isFullScreen="true"
                             {...hero}
                         />
 

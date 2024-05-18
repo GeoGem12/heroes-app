@@ -6,14 +6,15 @@ export const HeroCard = ({
     superhero,
     alter_ego,
     first_appearance,
-    characters
+    characters,
+    isFullScreen
 }) => {
     return (
-        <div className='col-md-4 mb-3'>
+        <div className={isFullScreen ? 'col-md-4 mb-3' : 'col-md-12 mb-3'}>
             <div className='card h-100'>
                 <div className='row g-0'>
                     <div className='col-md-4'>
-                        <img src={`/assets/heroes/${id}.jpg`} className='img-fluid rounded-start' alt='{superhero}' />
+                        <img src={`/assets/HeroesWeb/${id}.jpg`} className='img-fluid rounded-start' alt='{superhero}' />
                     </div>
                     <div className='col-md-8'>
                         <div className='card-body d-flex flex-column h-100'>
