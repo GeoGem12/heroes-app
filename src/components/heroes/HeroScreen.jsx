@@ -33,7 +33,7 @@ export const HeroScreen = () => {
     return (
         <div className='row mt-5' style={{ maxWidth: 850 }}>
             <div className='col-md-4'>
-                <img src={`../src/assets/heroes/${heroeId}.jpg`}
+                <img src={`/assets/heroes/${heroeId}.jpg`}
                     alt={superhero}
                     className='img-fluid rounded-start animate__animated animate__fadeInLeft'
                 />

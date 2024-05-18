@@ -13,7 +13,7 @@ export const HeroCard = ({
             <div className='card h-100'>
                 <div className='row g-0'>
                     <div className='col-md-4'>
-                        <img src={`src/assets/heroes/${id}.jpg`} className='img-fluid rounded-start' alt='{superhero}' />
+                        <img src={`/assets/heroes/${id}.jpg`} className='img-fluid rounded-start' alt='{superhero}' />
                     </div>
                     <div className='col-md-8'>
                         <div className='card-body d-flex flex-column h-100'>
